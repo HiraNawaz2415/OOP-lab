@@ -1,5 +1,7 @@
 import streamlit as st
 from utils.uml_parser import parse_cpp_file
+
+# Inject custom CSS for sidebar + layout + text styling
 st.markdown(
     """
     <style>
@@ -16,7 +18,7 @@ st.markdown(
         background-color: white;
     }
 
-    /* Headings and text elements in main content should be black */
+    /* Headings and text elements in main content should be black by default */
     [data-testid="stAppViewContainer"] h1,
     [data-testid="stAppViewContainer"] h2,
     [data-testid="stAppViewContainer"] h3,
@@ -28,7 +30,12 @@ st.markdown(
         color: black;
     }
 
-    /* Button text white, background green */
+    /* Custom white text for class output */
+    .white-text {
+        color: white !important;
+    }
+
+    /* Button styling */
     [data-testid="stAppViewContainer"] button {
         color: white !important;
         background-color: #56ab2f !important;
@@ -52,7 +59,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
 st.title("📈 UML Visualizer")
 
 uploaded_file = st.file_uploader("Upload a C++ file", type=["cpp", "h"])
@@ -63,10 +69,21 @@ if uploaded_file:
 
     result = parse_cpp_file("temp.cpp")
 
-    st.write("Classes found:", result["classes"])
-    st.write("Relations found:", result["relations"])
+    # Display Classes and Relations in WHITE text using custom div
+    st.markdown(
+        f"""
+        <div class='white-text'>
+            <h3>Classes found:</h3>
+            <pre>{result["classes"]}</pre>
+            <h3>Relations found:</h3>
+            <pre>{result["relations"]}</pre>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
-    diagram = "digraph G {\n  node [shape=record];\n"
+    # Build Graphviz diagram with white boxes for classes
+    diagram = "digraph G {\n  node [shape=record, style=filled, fillcolor=white];\n"
 
     for cls in result["classes"]:
         diagram += f'  {cls} [label="{{{cls}}}"];\n'
