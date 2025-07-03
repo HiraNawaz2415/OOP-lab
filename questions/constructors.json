@@ -1,0 +1,28 @@
+[
+    {
+      "question": "What is a constructor?",
+      "options": ["Destroys objects", "Initializes objects", "Hides data", "Calls main"],
+      "answer": "Initializes objects"
+    },
+    {
+      "question": "Which function runs when an object is created?",
+      "options": ["Destructor", "Constructor", "Main", "Virtual"],
+      "answer": "Constructor"
+    },
+    {
+      "question": "Which constructor takes no arguments?",
+      "options": ["Copy", "Move", "Default", "Dynamic"],
+      "answer": "Default"
+    },
+    {
+      "question": "Can constructors be overloaded?",
+      "options": ["Yes", "No", "Sometimes", "Never"],
+      "answer": "Yes"
+    },
+    {
+      "question": "Which function destroys an object?",
+      "options": ["Constructor", "Destructor", "Virtual", "Static"],
+      "answer": "Destructor"
+    }
+  ]
+  

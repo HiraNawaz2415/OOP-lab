@@ -1,0 +1,28 @@
+[
+    {
+      "question": "What is encapsulation?",
+      "options": ["Hiding data", "Inheritance", "Polymorphism", "Overloading"],
+      "answer": "Hiding data"
+    },
+    {
+      "question": "Which access specifier supports encapsulation?",
+      "options": ["public", "private", "friend", "extern"],
+      "answer": "private"
+    },
+    {
+      "question": "Which keyword is used for data hiding?",
+      "options": ["public", "protected", "private", "package"],
+      "answer": "private"
+    },
+    {
+      "question": "Encapsulation binds ____ and ____ together.",
+      "options": ["Functions, classes", "Data, functions", "Loops, classes", "Pointers, arrays"],
+      "answer": "Data, functions"
+    },
+    {
+      "question": "Which OOP pillar does encapsulation mainly support?",
+      "options": ["Inheritance", "Abstraction", "Polymorphism", "Encapsulation"],
+      "answer": "Encapsulation"
+    }
+  ]
+  

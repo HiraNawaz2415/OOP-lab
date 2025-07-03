@@ -1,0 +1,28 @@
+[
+    {
+      "question": "What is a virtual function?",
+      "options": ["Hidden function", "Private function", "Overridden function", "Static function"],
+      "answer": "Overridden function"
+    },
+    {
+      "question": "Which keyword declares a virtual function?",
+      "options": ["abstract", "static", "virtual", "final"],
+      "answer": "virtual"
+    },
+    {
+      "question": "Which supports runtime polymorphism?",
+      "options": ["Templates", "Inheritance", "Virtual functions", "Pointers"],
+      "answer": "Virtual functions"
+    },
+    {
+      "question": "Virtual functions are resolved at ____ time.",
+      "options": ["Compile", "Run", "Link", "Preprocess"],
+      "answer": "Run"
+    },
+    {
+      "question": "A class with a pure virtual function is called:",
+      "options": ["Abstract", "Base", "Template", "Friend"],
+      "answer": "Abstract"
+    }
+  ]
+  

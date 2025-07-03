@@ -1,0 +1,28 @@
+[
+    {
+      "question": "What is abstraction?",
+      "options": ["Hiding implementation", "Showing details", "Deriving classes", "Multiple inheritance"],
+      "answer": "Hiding implementation"
+    },
+    {
+      "question": "Which feature helps achieve abstraction?",
+      "options": ["Loops", "Classes", "Abstract classes", "Pointers"],
+      "answer": "Abstract classes"
+    },
+    {
+      "question": "Which concept hides complexity?",
+      "options": ["Polymorphism", "Abstraction", "Inheritance", "Encapsulation"],
+      "answer": "Abstraction"
+    },
+    {
+      "question": "Which keyword supports abstraction?",
+      "options": ["virtual", "abstract", "class", "public"],
+      "answer": "abstract"
+    },
+    {
+      "question": "Abstraction is mainly for:",
+      "options": ["Users", "Programmers", "Compilers", "None"],
+      "answer": "Users"
+    }
+  ]
+  

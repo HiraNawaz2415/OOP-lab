@@ -1,0 +1,28 @@
+[
+    {
+      "question": "What are templates in C++?",
+      "options": ["Loops", "Polymorphism", "Generic programming", "Encapsulation"],
+      "answer": "Generic programming"
+    },
+    {
+      "question": "Which keyword defines a template?",
+      "options": ["generic", "template", "define", "typedef"],
+      "answer": "template"
+    },
+    {
+      "question": "Which type of template exists?",
+      "options": ["Class", "Function", "Both", "None"],
+      "answer": "Both"
+    },
+    {
+      "question": "Templates help achieve:",
+      "options": ["Encapsulation", "Abstraction", "Generic programming", "Overloading"],
+      "answer": "Generic programming"
+    },
+    {
+      "question": "Which STL uses templates?",
+      "options": ["List", "Vector", "Map", "All of them"],
+      "answer": "All of them"
+    }
+  ]
+  

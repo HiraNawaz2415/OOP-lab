@@ -1,0 +1,28 @@
+[
+    {
+      "question": "What is a class in C++?",
+      "options": ["A blueprint for objects", "A function", "A loop", "A pointer"],
+      "answer": "A blueprint for objects"
+    },
+    {
+      "question": "Which keyword is used to define a class?",
+      "options": ["object", "define", "struct", "class"],
+      "answer": "class"
+    },
+    {
+      "question": "What is an object in C++?",
+      "options": ["An instance of a class", "A pointer", "A function", "A loop"],
+      "answer": "An instance of a class"
+    },
+    {
+      "question": "Which member can be accessed outside the class?",
+      "options": ["private", "protected", "public", "sealed"],
+      "answer": "public"
+    },
+    {
+      "question": "Which of these is not a feature of classes?",
+      "options": ["Encapsulation", "Inheritance", "Functions", "Loops"],
+      "answer": "Loops"
+    }
+  ]
+  

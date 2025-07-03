@@ -1,0 +1,28 @@
+[
+    {
+      "question": "What is operator overloading?",
+      "options": ["New operator", "Same operator, new meaning", "Overriding function", "Looping"],
+      "answer": "Same operator, new meaning"
+    },
+    {
+      "question": "Which operator can be overloaded?",
+      "options": ["+", "==", "()", "All"],
+      "answer": "All"
+    },
+    {
+      "question": "Which operator cannot be overloaded?",
+      "options": ["+", ".", "()", "[]"],
+      "answer": "."
+    },
+    {
+      "question": "Which keyword is used for overloading?",
+      "options": ["operator", "overload", "define", "None"],
+      "answer": "operator"
+    },
+    {
+      "question": "Operator overloading is a type of:",
+      "options": ["Encapsulation", "Inheritance", "Polymorphism", "Abstraction"],
+      "answer": "Polymorphism"
+    }
+  ]
+  

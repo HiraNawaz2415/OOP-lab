@@ -1,0 +1,28 @@
+[
+    {
+      "question": "What is file I/O?",
+      "options": ["Input/Output to console", "Input/Output to files", "Inheritance", "Templates"],
+      "answer": "Input/Output to files"
+    },
+    {
+      "question": "Which header is for file I/O?",
+      "options": ["#include <file>", "#include <fstream>", "#include <stdio>", "#include <iostream>"],
+      "answer": "#include <fstream>"
+    },
+    {
+      "question": "Which class writes to a file?",
+      "options": ["ifstream", "ofstream", "fstream", "file"],
+      "answer": "ofstream"
+    },
+    {
+      "question": "Which class reads from a file?",
+      "options": ["ifstream", "ofstream", "fstream", "file"],
+      "answer": "ifstream"
+    },
+    {
+      "question": "Which operator reads a file?",
+      "options": ["<<", ">>", "**", "//"],
+      "answer": ">>"
+    }
+  ]
+  

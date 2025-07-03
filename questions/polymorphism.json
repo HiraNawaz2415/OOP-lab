@@ -1,0 +1,28 @@
+[
+    {
+      "question": "What does polymorphism mean?",
+      "options": ["Same name, different forms", "Hiding data", "Deriving new classes", "None"],
+      "answer": "Same name, different forms"
+    },
+    {
+      "question": "Which concept allows method overloading?",
+      "options": ["Inheritance", "Encapsulation", "Polymorphism", "Abstraction"],
+      "answer": "Polymorphism"
+    },
+    {
+      "question": "Which keyword is used to support runtime polymorphism?",
+      "options": ["static", "friend", "virtual", "override"],
+      "answer": "virtual"
+    },
+    {
+      "question": "Which is not a type of polymorphism?",
+      "options": ["Compile time", "Runtime", "Overriding", "Encapsulation"],
+      "answer": "Encapsulation"
+    },
+    {
+      "question": "Which one uses function overloading?",
+      "options": ["Encapsulation", "Polymorphism", "Inheritance", "None"],
+      "answer": "Polymorphism"
+    }
+  ]
+  

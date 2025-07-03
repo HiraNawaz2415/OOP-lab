@@ -1,0 +1,28 @@
+[
+    {
+      "question": "What is a pointer?",
+      "options": ["Stores address", "Stores data", "Stores string", "None"],
+      "answer": "Stores address"
+    },
+    {
+      "question": "Which operator is used for pointer declaration?",
+      "options": ["&", "*", "%", "#"],
+      "answer": "*"
+    },
+    {
+      "question": "Which operator gets the address?",
+      "options": ["*", "&", "^", "@"],
+      "answer": "&"
+    },
+    {
+      "question": "Pointers help implement:",
+      "options": ["Encapsulation", "Inheritance", "Dynamic memory", "Templates"],
+      "answer": "Dynamic memory"
+    },
+    {
+      "question": "Pointer to pointer is called:",
+      "options": ["Null", "Double pointer", "Smart pointer", "None"],
+      "answer": "Double pointer"
+    }
+  ]
+  

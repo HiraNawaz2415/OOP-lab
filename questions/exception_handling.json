@@ -1,0 +1,28 @@
+[
+    {
+      "question": "What handles runtime errors?",
+      "options": ["Constructors", "Destructors", "Exception Handling", "Virtual functions"],
+      "answer": "Exception Handling"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions?",
+      "options": ["try", "throw", "catch", "All"],
+      "answer": "All"
+    },
+    {
+      "question": "Which block must follow try?",
+      "options": ["throw", "finally", "catch", "None"],
+      "answer": "catch"
+    },
+    {
+      "question": "What does throw do?",
+      "options": ["Handles exception", "Throws exception", "Ignores error", "None"],
+      "answer": "Throws exception"
+    },
+    {
+      "question": "What is exception propagation?",
+      "options": ["Ignoring exceptions", "Passing exception to handler", "Creating new error", "None"],
+      "answer": "Passing exception to handler"
+    }
+  ]
+  

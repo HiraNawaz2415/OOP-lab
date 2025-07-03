@@ -1,0 +1,28 @@
+[
+    {
+      "question": "What is inheritance in C++?",
+      "options": ["Hiding data", "Creating new data types", "Deriving new classes from existing ones", "Polymorphism"],
+      "answer": "Deriving new classes from existing ones"
+    },
+    {
+      "question": "Which keyword is used for inheritance?",
+      "options": ["extends", "inherits", "public", ":"],
+      "answer": ":"
+    },
+    {
+      "question": "What is base class?",
+      "options": ["A derived class", "A parent class", "A function", "A loop"],
+      "answer": "A parent class"
+    },
+    {
+      "question": "What is the opposite of base class?",
+      "options": ["Loop class", "Function class", "Derived class", "Encapsulated class"],
+      "answer": "Derived class"
+    },
+    {
+      "question": "Which inheritance type is not supported in Java but is in C++?",
+      "options": ["Single", "Hierarchical", "Multiple", "Multilevel"],
+      "answer": "Multiple"
+    }
+  ]
+  

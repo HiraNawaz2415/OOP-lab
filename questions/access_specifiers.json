@@ -1,0 +1,28 @@
+[
+    {
+      "question": "Which access specifier allows access anywhere?",
+      "options": ["private", "protected", "public", "friend"],
+      "answer": "public"
+    },
+    {
+      "question": "Which access specifier restricts access within the class?",
+      "options": ["public", "private", "protected", "default"],
+      "answer": "private"
+    },
+    {
+      "question": "Which access specifier allows access to derived classes?",
+      "options": ["public", "private", "protected", "friend"],
+      "answer": "protected"
+    },
+    {
+      "question": "How many access specifiers does C++ support?",
+      "options": ["2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "question": "Which access specifier is default for class members?",
+      "options": ["public", "private", "protected", "None"],
+      "answer": "private"
+    }
+  ]
+  
