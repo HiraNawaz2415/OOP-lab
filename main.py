@@ -71,4 +71,4 @@ This interactive app helps you **learn, practice, and master** Object-Oriented P
 👉 Use the sidebar to navigate through the pages!
 """)
 
-st.image("assets/logo.png", width=200)
+st.image("CS/assets/logo.png", width=200)
