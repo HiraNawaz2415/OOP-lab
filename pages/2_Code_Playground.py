@@ -5,7 +5,7 @@ st.markdown(
     """
     <style>
     [data-testid="stSidebar"] {
-        background: linear-gradient(135deg, #a8e063 0%, #56ab2f 100%);
+      background: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
         color: white;
     }
     [data-testid="stSidebar"] * {
